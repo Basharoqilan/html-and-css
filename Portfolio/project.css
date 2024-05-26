@@ -10,14 +10,14 @@ padding: 0;
      flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
-height: 90vh;
+height: 110vh;
 
 }
 
 .A{
 
-   
-    width: 30%; 
+padding-left: 10%;
+    width: 50%; 
     height: 50vh;
     
 }
@@ -33,14 +33,14 @@ height: 90vh;
     flex-wrap: wrap;
    justify-content: space-around;
         align-items: center;
-height: 90vh;
+height: 120vh;
 }
 
 .skills{
     display:flex;
      flex-direction: row; 
      flex-wrap: wrap;
-
+     height: 100vh;
     
 }
 
@@ -51,12 +51,12 @@ height: 90vh;
     column-gap: 3%;
     row-gap: 3%;
     text-align: center;
-    color: #fb06de;
-    height: 90vh;
+    color: rgb(3, 3, 85);
+    height: 100vh;
 }
 .v{
     font-size: 20px;
-    color: #fb06de
+    color: rgb(3, 3, 85)
 }
 
 .D{
@@ -67,23 +67,26 @@ height: 90vh;
 
 
 .E{
-    display: grid; 
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    row-gap: 20px;
-    width: 100%;
+    margin-left: 28%;
+    width: 70%;
     text-align: center;
+   
     height: 15vh;
 }
 
+.inputbox {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
 .F{
-    background-color:  #191f36;
-    border:1px solid #fffdfd;
+   height: 5vh;
+   padding-left: 1%;
+    border:1px solid black;
     border-radius: 20px; 
-    color: aliceblue;
-    height: 5vh;
-  margin-left: 24%;
-  width: 50%;
+  color: #000080;
+  width: 30%;
 }
 
 
@@ -101,7 +104,7 @@ height: 90vh;
 }
 
 .R{
-    color: aliceblue;
+    color: rgb(3, 3, 85);
     font-size: 20px;
 }
 
@@ -175,6 +178,7 @@ margin-right: 40%;
         .E textarea{
             margin-top: 5%;
         }
+        
 
 }
 
