@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*///////////////////////////// top div  ///////////////////////////////*/
+.top-div {
+    height: 6vh;
+    color: rgb(119, 119, 119);
+}
+.top-div img {
+    width: 30px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+/*///////////////////////////// second div  ///////////////////////////////*/
+.second-div {
+    height: 10vh;
+}
+
+/*///////////////////////////// third div  ///////////////////////////////*/
+
+.A{
+    display: grid;
+    grid-template-columns: (3,1fr);
+    grid-template-rows: (8,1fr);
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+.B{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end: 9; 
+    padding-left: 5%;
+    
+}
+.C{
+    border: 1px solid rgb(221, 220, 220);
+    margin-right: 10%;
+    height: 65vh;
+    text-align: center;
+}
+.D{
+    background-color: rgb(125, 163, 74);
+    width: 100%;
+    color: aliceblue;
+    height: 5vh;
+    padding-top: 3%;
+}
+.E{
+    padding-top: 1%;
+    text-align: left;
+    padding-left: 12%;
+}
+.E p {
+    margin-bottom: 0;
+    padding-top: 3%;
+    color: gray;
+}
+.F{
+    height: 2vh;
+    grid-column-start:2 ;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+.G{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}    
+.container {     
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    background-color: #efefef;
+    color: red;
+}
+.item2 {
+    background-color: #efefef;
+    color: red;
+}
+.item3 {
+    background-color: #f0fbfb;
+    color: red;
+}
+.item4 {
+    background-color: #efefef;
+    color: red;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background-color: white;
+    font-size: small;
+    font-weight: bolder;
+    border: none;
+    margin: 8%;
+
+}
+.top-padding {
+    padding-left: 8%;
+}
+
+/* media query  */
+@media only screen and (max-width: 480px){
+    
+}
