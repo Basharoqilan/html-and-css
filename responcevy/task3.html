@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+   
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+            font-weight: 200;
+            
+        }
+    
+        .A{
+        background-color: rgb(228, 227, 227);
+        margin: 0px;
+        display: grid;
+        gap: 10px;
+        border: 2px dashed red;
+        padding: 5px;
+        height: 100vh;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: 15% 15% ;
+    }
+    .child{
+        background-color: red;
+        text-align: center;
+        line-height: 100px;
+        overflow: hidden;
+    }
+ .secound_contaner{
+    border: 2px dashed blue;
+    height: 65vh;
+    
+ }
+ .third_contaner{
+    border: 2px dashed yellow;
+    height: 64vh;
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 35% 35% 35%;
+    
+    
+    justify-content: center;
+ }
+ .right_child{
+        background-color: rgb(49, 48, 48);
+        text-align: center;
+        line-height: 100px;
+        overflow: hidden;
+        margin: 10px;
+       
+       }
+       @media(max-width:1000px){
+        .child > .c--1{
+            grid-area: 1/1/2/7;
+        }
+       }
+    
+
+    </style>
+</head>
+<body>
+   
+<section class="A">
+
+
+
+
+    <section style="grid-column: span 2;background-color: rgb(35, 167, 227);display: flex;justify-content: center; text-align: center;" class="child c--1">
+Dashboard
+       
+    </section>
+    <section style="grid-column: span 4;background-color: rgb(85, 192, 85);" class="child c--2">
+    Charts
+    </section>
+    <section style="grid-column: span 2;background-color: rgb(250, 162, 0)" class="child c--3 ">
+    widgets
+    </section>
+    <section style="grid-column: span 2;background-color: rgb(213, 99, 18);" class="child c--4">
+    Tables
+    </section>
+    <section style="grid-column: span 2; background-color: rgb(69, 69, 197);" class="child c--5">
+    Full width
+    </section>
+    <section style="grid-column: span 4;background-color: rgb(193, 81, 0);" class="child c--6">
+        Forms
+    </section>
+    <section style="grid-column: span 2;background-color: rgb(58, 58, 152);" class="child c--7 ">
+        Buttons
+    </section>
+    <section style="grid-column: span 2;background-color: rgb(5, 157, 227);" class="child c--8">
+    Elements
+    </section>
+    <section style="grid-column: span 2 ;background-color:seagreen ;"class="child c--9">
+    Calnedar
+    </section>
+    <section style="grid-column: span 2;background-color: rgb(250, 186, 68);"class="child c--10">Errors</section>
+
+
+<section style="grid-column: span 12; background-color:white;text-align: left;  "  class="child left">
+    
+
+<div class="secound_contaner" style="color:black; display: flex;">
+   <div style="width: 75%; float: left;color: black;font-size: 30px;">
+     Site analysis
+
+     <div>
+        <img style="width: 100%; height: 30px;height:auto ;" src="50.png" alt="">
+
+     </div>
+   </div>
+ 
+
+    <div class="third_contaner" style="width: 25%; float: right;">
+        
+        <section  class="right_child r--1">Total Users</section>
+        <section  class="right_child r--2">New Users</section>
+        <section  class="right_child r--3">Total Shop</section>
+        <section  class="right_child r--4">TotalCrders </section>
+        <section  class="right_child r--5">perding Orders</section>
+        <section  class="right_child r--6"><h1 >online Orders</h1></section>
+
+    
+    </div>
+
+</div>
+
+
+
+</section>
+
+</section>
+
+</section>
+
+
+</body>
+</html>
