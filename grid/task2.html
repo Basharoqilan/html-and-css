@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.a{
+height: 700px;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(10,1fr);
+grid-template-rows: auto auto auto;
+grid-template-areas:"h1 h1 h1 h1 h1 h1 h1 h1 h1 h1" 
+"h2 h2 h2 h2 h2 h2 h2 h3 h3 h3"
+"h4 h4 h4 h4 h4 h4 h4 h4 h4 h4"  ;
+row-gap: 10px;
+column-gap: 10px;
+}
+.b{
+   height: 120px;
+    width: 100%;
+grid-area: h1;
+background-color: black;
+}
+.c{
+   height: 400px;
+    width: 100%;
+grid-area: h2;
+background-color: orange;
+}
+.d{
+   height: 400px;
+    width: 100%;
+grid-area: h3;
+background-color: green;
+}
+.e{
+   height: 120px;
+    width: 100%;
+grid-area: h4 ;
+background-color: blue;
+}
+</style>
+</head>
+<body>
+    <div class="a">
+   <div class="b"></div>
+   <div class="c"></div>
+   <div class="d"></div>
+   <div class="e"></div>
+</div>
+</body>
+</html>

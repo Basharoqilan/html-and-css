@@ -1,0 +1,192 @@
+.a{
+   
+    width: 40%;
+    margin-left: 30%;
+margin-top: 5%;
+height: 550px;
+column-gap: 2px;
+row-gap: 2px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-areas:"a1 a1 a1 a1 " "a2 a3 a4 a5" "a6 a7 a8 a9" "a10 a11 a12 a13" "a14 a15 a16 a17";
+background-color: rgb(59, 202, 241);
+
+}
+.A1{
+    height: 100px;
+    width: 95%;
+    margin-left:15px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: rgb(242, 244, 230);
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+}
+.B1{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+}
+.B2{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.B3{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+}
+.B4{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: rgb(246, 93, 93);
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.C1{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.C2{
+    height: 100px;
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+}
+.C3{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.C4{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.D1{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+}
+.D2{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.D3{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.D4{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: aliceblue;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+}
+.E1{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: yellow;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+}
+.E2{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: yellow;
+box-shadow: 0 -4px 0 0 #0000008c inset;
+
+
+}
+.E3{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: yellow;
+box-shadow: 0 -4px 0 0#0000008c inset;
+
+}
+.E4{
+    height: 70px;
+    width: 50%;
+    margin-left:50px ;
+    margin-top: 20px;
+grid-area: a1;
+background-color: yellow;
+box-shadow: 0 -4px 0 0#0000008c inset;
+
+}
